@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_section_section_image_grids",
+  "info": {
+    "displayName": "section_image_grid",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
