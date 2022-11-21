@@ -1,8 +1,7 @@
 {
   "collectionName": "components_section_text_grids",
   "info": {
-    "displayName": "text-grid",
-    "icon": "align-justify"
+    "displayName": "text-grid"
   },
   "options": {},
   "attributes": {

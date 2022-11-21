@@ -1,7 +1,7 @@
 {
   "collectionName": "components_section_section_grids",
   "info": {
-    "displayName": "section_text_grid",
+    "displayName": "section_grid",
     "icon": "th",
     "description": ""
   },
@@ -25,6 +25,11 @@
       "repeatable": false,
       "component": "section.section-metadata",
       "required": true
+    },
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid"
     }
   }
 }
