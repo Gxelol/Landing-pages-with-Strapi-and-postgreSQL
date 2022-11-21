@@ -2,17 +2,17 @@
   "collectionName": "components_section_image_grids",
   "info": {
     "displayName": "image-grid",
-    "icon": "file-contract"
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
